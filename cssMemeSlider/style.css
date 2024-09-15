@@ -41,3 +41,51 @@ input {
 	height: 36rem;
 	border-radius: 0.7%;
 }
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.captions {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.captions-wrapper {
+	display: flex;
+	transition: transform 0.4s ease-in-out;
+}
+
+.caption {
+	display: flex;
+	min-width: 100%;
+}
+
+.controls {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.controls label {
+	padding: 0.5rem;
+	cursor: pointer;
+}
+
+.controls label span {
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #0400ff;
+	border: 0.1rem solid #0400ff;
+	border-radius: 50%;
+	transition: 0.3s ease-in-out;
+}
+
+.slider label:hover span {
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+
+
